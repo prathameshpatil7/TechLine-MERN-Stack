@@ -1,0 +1,31 @@
+.details-atc-btn {
+  button {
+    color: #ca452c;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #dad0d0;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.5s ease 0s;
+  }
+  button:hover {
+    background-color: #ca452c;
+    color: #fff;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rel-cards {
+    justify-content: center;
+  }
+  .rel-section {
+    text-align: center;
+  }
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

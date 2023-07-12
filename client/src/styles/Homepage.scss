@@ -1,0 +1,66 @@
+.home-page h1 {
+  color: #212a3e;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  input[type="checkbox"] {
+    accent-color: #ca452c;
+  }
+}
+
+/* ==================
+  filters
+  ============== */
+.border-right {
+  padding-inline: 0;
+  border-radius: 2px; /* 角を丸くする */
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12), 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+}
+.filters-tab {
+  padding-block: 10px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #212a3e;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.05), 0 -1px 0 0 rgba(0, 0, 0, 0.05);
+  /* background-color: cyan; */
+}
+.categories-checkbox {
+  color: #353232;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.categories-checkbox:hover {
+  color: #505864;
+}
+.reset-btn {
+  background-color: #ca452c;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+  border: 1px solid #ca452c;
+}
+.reset-btn:hover {
+  color: #ca452c;
+  background-color: #fff;
+  border: 1px solid #ca452c;
+}
+
+.filters h4 {
+  margin-top: 100px;
+  color: gray !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.loadmore {
+  color: #ca452c;
+  font-weight: bold;
+  font-size: 20px !important;
+}

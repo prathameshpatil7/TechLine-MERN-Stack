@@ -1,0 +1,59 @@
+.admin-all-products {
+  .pic {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+
+  .table thead {
+    background-color: #21cf95;
+  }
+
+  .table thead th {
+    padding: 30px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+  }
+
+  .container .table-wrap {
+    margin: 20px auto;
+    overflow-x: auto;
+  }
+
+  .container .table-wrap::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  .container .table-wrap::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #5d7ecd, #0c91e6);
+  }
+
+  .table > :not(caption) > * > * {
+    padding: 2rem 0.5rem;
+  }
+
+  .input {
+    width: 50px;
+    max-width: 100px;
+    height: 30px;
+    color: black;
+    font-weight: 600;
+    outline: none;
+    padding: auto;
+  }
+
+  ::placeholder {
+    color: black;
+    font-weight: 600;
+  }
+}
+
+.all-products {
+  @media (min-width: 576px) {
+    .container {
+      overflow: auto;
+    }
+  }
+}
